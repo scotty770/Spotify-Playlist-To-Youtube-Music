@@ -1,5 +1,4 @@
 # Spotify-Playlist-To-Youtube-Music
-**WIP**
 
 Quick doc on how I moved my Spotify playlists to YouTube Music. I couldn't find an "easy" way of doing this, so I'm writing this to make it as straightforward as possible for anyone following in my footsteps. I've got it done now, so I'm not coming back to this if anything changes or if there's a better way of doing it. You've been warned! If it turns out this is misleading or significantly worse than another way I find, I'll private or delete this repo.
 
@@ -16,6 +15,16 @@ The last thing we will need for this stage is the playlist ID. We can find this 
 
 I use an unofficial YTMusic API here: https://github.com/sigma67/ytmusicapi
 
-We need authorisation to create and add to playlists, so there's something to do here too. 
+If you use inspect on YTMusic and find a POST request in the 'network' tab to music.youtube.com, right click it and select 'copy request headers'. You will need this when you run the tool.
 
+# Running the tool
+Make sure you have run `pip install ytmusicapi`
+I haven't bothered making this too nice to use. 
+Copy in Soptify info at the top of the script and run the tool. 
+If all goes well, paste your request headers when prompted, then new line and ctl+d. This will create a browser.json file that I recommend you delete after you are done. 
+You can set the name and description of the new playlist in the script, defaulting to 'Spotify imported songs'.
 
+This tool has only been tested in English.
+
+Note: YT music playlists have a limit of 5000 songs in a playlist. If you want to copy over more songs, you will need to make multiple playlists. This should be easy to do by modifying the script. 
+Note2: You can use OAuth but you will have to change the authentication method.
