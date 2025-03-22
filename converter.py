@@ -3,6 +3,7 @@ import ytmusicapi
 import json
 import requests
 
+# Update these with instructions from the readme
 spotifyID="<<AppID>>"
 spotifySecret="<<AppSecret>>"
 spotifyPlaylist = "<<PlaylistID>>"
@@ -40,7 +41,8 @@ def getSpotifyPlaylist(clientID, clientSecret, playlistId):
 def writeYoutubePlaylist(songs):
     ytmusicapi.setup(filepath="browser.json")
     ytmusic = ytmusicapi.YTMusic("browser.json")
-    playlist = ytmusic.create_playlist("Liked Songs From Spotify- final", "An imported playlist from Spotify")
+    # Change this if you want!
+    playlist = ytmusic.create_playlist("Spotify imported songs", "An imported playlist from Spotify")
     counter = 0
     for song in songs:
         counter += 1
