@@ -14,6 +14,8 @@ The last thing we will need for this stage is the playlist ID. We can find this 
 
 # YTMusic
 
+I use an unofficial YTMusic API here: https://github.com/sigma67/ytmusicapi
+
 We need authorisation to create and add to playlists, so there's something to do here too. 
 
 
