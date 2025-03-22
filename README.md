@@ -24,10 +24,16 @@ I haven't bothered making this too nice to use.
 
 1. You can set the name and description of the new playlist in the script, defaulting to 'Spotify imported songs'.
 2. Copy in Soptify info at the top of the script and run the tool. 
-3. If all goes well, paste your request headers when prompted, then new line and ctl+d. This will create a browser.json file that I recommend you delete after you are done. 
-4. When 
+3. If all goes well, paste your request headers when prompted, then new line and ctl+d.
 
-This tool has only been tested in English.
+Should the tool fail, and you see repeated failures, I recommend trying the tool again with a new cookie and creating a new playlist, then merging these playlists in YouTube Music. You can change the offset of the Spotify playlist that is fetched in the Spotify section of the tool.
 
-Note: YT music playlists have a limit of 5000 songs in a playlist. If you want to copy over more songs, you will need to make multiple playlists. This should be easy to do by modifying the script. 
-Note2: You can use OAuth but you will have to change the authentication method.
+# Notes
+
+1. This tool has only been tested in English.
+
+2. The YouTube API will create a browser.json file that I recommend you delete after you are done.
+
+3. YT music playlists have a limit of 5000 songs in a playlist. If you want to copy over more songs, you will need to make multiple playlists. This should be easy to do by modifying the script. 
+
+4. You can use OAuth for YT, which might be more reliable, but you will have to change the authentication method.
