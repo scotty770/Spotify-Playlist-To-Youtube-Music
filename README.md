@@ -1,7 +1,7 @@
 # Spotify-Playlist-To-Youtube-Music
 **WIP**
 
-Quick doc on how I moved my Spotify playlists to YouTube Music. I couldn't find an "easy" way of doing this, so I'm writing this to make it as straightforward as possible for anyone who needs this to get it done pretty painlessly. I've got it done now, so I'm not coming back to this if anything changes or if there's a better way of doing it. You've been warned! If it turns out this is misleading or significantly worse than another way I find, I'll private or delete this repo.
+Quick doc on how I moved my Spotify playlists to YouTube Music. I couldn't find an "easy" way of doing this, so I'm writing this to make it as straightforward as possible for anyone following in my footsteps. I've got it done now, so I'm not coming back to this if anything changes or if there's a better way of doing it. You've been warned! If it turns out this is misleading or significantly worse than another way I find, I'll private or delete this repo.
 
 There are a couple things you need to do before you can run this:
 
