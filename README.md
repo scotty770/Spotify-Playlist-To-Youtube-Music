@@ -20,8 +20,6 @@ If you use inspect on YTMusic and find a POST request in the 'network' tab to mu
 # Running the tool
 Make sure you have run `pip install ytmusicapi`
 
-I haven't bothered making this too nice to use. 
-
 1. You can set the name and description of the new playlist in the script, defaulting to 'Spotify imported songs'.
 2. Copy in Soptify info at the top of the script and run the tool. 
 3. If all goes well, paste your request headers when prompted, then new line and ctl+d.
